@@ -1,0 +1,45 @@
+.impressum-container {
+  padding: 70px;
+  margin: 70px;
+  color: var(--font-color);
+}
+
+.impressum-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.impressum-address {
+  margin-bottom: 20px;
+}
+
+.impressum-contact {
+  margin-bottom: 20px;
+}
+
+.impressum-register {
+  margin-bottom: 20px;
+}
+
+.impressum-vat {
+  margin-bottom: 20px;
+}
+
+.impressum-responsible {
+  margin-bottom: 20px;
+}
+
+.impressum-responsible-title {
+  font-weight: bold;
+}
+
+.impressum-disclaimer {
+  font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 740px) {
+  .impressum-container {
+      margin: auto;
+  }
+}

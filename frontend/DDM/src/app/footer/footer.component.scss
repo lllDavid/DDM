@@ -1,0 +1,104 @@
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 10%;
+  padding-bottom: 5px;
+  background-color: var(--second-color);
+}
+
+ul {
+  list-style: none;
+}
+
+.footer-col {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-col h4 {
+  position: relative;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 22px;
+  color: var(--font-color);
+  text-transform: capitalize;
+}
+
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  background-color: var(--font-color);
+  height: 2px;
+  width: 40px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul li:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+ul li a {
+  display: block;
+  font-size: 19px;
+  text-transform: capitalize;
+  color: var(--font-color);
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+ul li a:hover {
+  color: var(--third-color);
+  padding-left: 2px;
+}
+
+.links a {
+  display: inline-block;
+  height: 44px;
+  width: 44px;
+  color: white;
+  background-color: var(--third-color);
+  margin: 0 8px 8px 0;
+  text-align: center;
+  line-height: 44px;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+.links a:hover {
+  color: var(--third-color);
+  background-color: white;
+}
+
+@media (max-width: 740px) {
+
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .footer-col h4::before {
+    all: unset;
+  }
+}
+
+@media (max-width: 555px) {
+  .footer-col {
+    width: 100%;
+  }
+}
+
+#copyright {
+  margin: auto;
+  color: var(--font-color);
+  padding-top: 50px;
+  padding-bottom: 10px;
+}

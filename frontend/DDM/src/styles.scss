@@ -1,0 +1,16 @@
+:root {
+  --main-color: #3c4245;
+  --second-color: #5f6769;
+  --third-color: #719192;
+  --third-color-hover: #547b7d;
+  --font-color: #FFFFFF;
+  --chat-color: #000000;
+}
+
+html {
+  background-color: var(--main-color);
+}
+
+body {
+  background-color: var(--main-color);
+}

@@ -1,0 +1,26 @@
+#team {
+  margin: 70px;
+  padding: 70px;
+  color: var(--font-color);
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 740px) {
+  #news {
+    margin: auto;
+  }
+}
+
+
+
+@media only screen and (max-width: 740px) {
+  #team {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #img {
+    height: 100p !important;
+  }
+}

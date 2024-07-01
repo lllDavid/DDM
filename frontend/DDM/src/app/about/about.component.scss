@@ -1,0 +1,11 @@
+#about {
+  margin: 70px;
+  padding: 70px;
+  color: var(--font-color);
+}
+
+@media only screen and (max-width: 740px) {
+  #about {
+      margin: auto;
+  }
+}

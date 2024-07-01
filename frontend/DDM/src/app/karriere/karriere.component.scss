@@ -1,0 +1,11 @@
+#karriere {
+  color: var(--font-color);
+  margin: 70px;
+  padding: 70px;
+}
+
+@media only screen and (max-width: 740px) {
+  #karriere {
+      margin: auto;
+  }
+}

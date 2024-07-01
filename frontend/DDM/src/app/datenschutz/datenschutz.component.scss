@@ -1,0 +1,43 @@
+.privacy-container {
+  max-width: 800px;
+  margin: 70px;
+  padding: 70px;
+  border-radius: 10px;
+  color: var(--font-color);
+}
+
+.privacy-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.privacy-section {
+  margin-bottom: 20px;
+}
+
+.privacy-section-title {
+  font-weight: bold;
+}
+
+.privacy-contact {
+  margin-top: 20px;
+}
+
+.privacy-contact p {
+  margin: 5px 0;
+}
+
+.privacy-contact p:last-child {
+  margin-bottom: 0;
+}
+
+.privacy-disclaimer {
+  font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 740px) {
+  .privacy-container {
+      margin: auto;
+  }
+}
